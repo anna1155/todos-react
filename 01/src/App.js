@@ -46,7 +46,7 @@ function MyApp(){
     <>
     <ul>
       <h1 style={{ 
-        color: 'red'
+        color: 'pink'
        }}>DATA FROM TODOS API</h1>
       <input 
           type="number"

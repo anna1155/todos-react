@@ -45,7 +45,9 @@ function MyApp(){
   return(
     <>
     <ul>
-      <h1>DATA FROM TODOS API</h1>
+      <h1 style={{ 
+        color: 'red'
+       }}>DATA FROM TODOS API</h1>
       <input 
           type="number"
           value={id}

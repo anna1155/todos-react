@@ -36,7 +36,7 @@ function MyApp(){
   const [id,setId] = useState('');
 
   const getTaskById = () => {
-    fetch(`http://localhost:5000/todos/${id}`)
+    fetch(`https://todos-express.onrender.com/todos/${id}`)
       .then((res) => res.json())
       .then((todo) => {setTodo(todo.data); alert(todo.message);})
       .catch((err) => console.error('Error : ', err));
